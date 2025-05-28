@@ -1,8 +1,12 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import React, { FunctionComponent } from 'react';
+import React, { type FunctionComponent } from "react";
 import { ViewProps } from 'react-native';
+
+// biome-ignore lint/style/useImportType: <explanation>
+// biome-ignore lint/correctness/noUnusedImports: <explanation>
+// biome-ignore lint/suspicious/noShadowRestrictedNames: <explanation>
 #svgComponents#
 
 interface Props extends SvgProps {
@@ -11,14 +15,8 @@ interface Props extends SvgProps {
 
 #xml#
 
-let #componentName#: FunctionComponent<Props> = ({ size, color, ...rest }) => {
+const #componentName#: FunctionComponent<Props> = ({ size, color, ...rest }) => {
   return (#iconContent#  );
 };
-
-#componentName#.defaultProps = {
-  size: #size#,
-};
-
-#componentName# = React.memo ? React.memo(#componentName#) : #componentName#;
 
 export default #componentName#;

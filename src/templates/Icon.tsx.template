@@ -1,8 +1,12 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import React, { FunctionComponent } from 'react';
+import React, { type FunctionComponent } from "react";
 import { ViewProps } from 'react-native';
+
+// biome-ignore lint/style/useImportType: <explanation>
+// biome-ignore lint/correctness/noUnusedImports: <explanation>
+// biome-ignore lint/suspicious/noShadowRestrictedNames: <explanation>
 #svgComponents#
 #imports#
 #exports#
@@ -14,13 +18,11 @@ interface Props extends SvgProps {
   size?: number;
 }
 
-let IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {
+const IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {
   switch (name) {
 #cases#  }
 
   return null;
 };
-
-IconFont = React.memo ? React.memo(IconFont) : IconFont;
 
 export default IconFont;
