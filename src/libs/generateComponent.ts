@@ -169,6 +169,7 @@ const addAttribute = (
 
 	if (sub && sub.$) {
 		for (const attributeName of Object.keys(sub.$)) {
+			console.log(attributeName);
 			if (attributeName === "fill") {
 				if (sub.$[attributeName] === "none") {
 					template += `\n${whitespace(counter.baseIdent + 4)}${attributeName}='${sub.$[attributeName]}'`;
@@ -176,6 +177,9 @@ const addAttribute = (
 					template += `\n${whitespace(counter.baseIdent + 4)}${attributeName}={color}`;
 					counter.colorIndex += 1;
 				}
+			} else if (attributeName === "data-follow-fill") {
+				// skip
+				console.log(sub.$[attributeName]);
 			} else {
 				template += `\n${whitespace(counter.baseIdent + 4)}${camelCase(attributeName)}="${sub.$[attributeName]}"`;
 			}
