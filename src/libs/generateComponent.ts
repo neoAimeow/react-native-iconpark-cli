@@ -53,7 +53,7 @@ export const generateComponent = (data: XmlData, config: Config) => {
 	data.svg.symbol.forEach((item, index) => {
 		let singleFile: string;
 		const currentSvgComponents = new Set<string>(["Svg"]);
-		const iconId = item.$.id;
+		const iconId = `${item.$.id}-icon`;
 		const iconIdAfterTrim = config.trim_icon_prefix
 			? iconId.replace(
 					new RegExp(`^${config.trim_icon_prefix}(.+?)$`),

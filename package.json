@@ -1,6 +1,6 @@
 {
 	"name": "rn-iconpark-cli",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"main": "index.js",
 	"keywords": ["iconpark", "react-native-iconpark", "icon", "icons"],
 	"repository": "git@github.com:siy-neo/react-native-iconpark-cli.git",
