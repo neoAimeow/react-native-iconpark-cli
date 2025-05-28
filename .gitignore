@@ -5,4 +5,4 @@ build/
 src/iconfont
 /iconfont.json
 .DS_Store
-./snapshots
+snapshots/
