@@ -169,7 +169,6 @@ const addAttribute = (
 
 	if (sub && sub.$) {
 		for (const attributeName of Object.keys(sub.$)) {
-			console.log(attributeName);
 			if (attributeName === "fill") {
 				if (sub.$[attributeName] === "none") {
 					template += `\n${whitespace(counter.baseIdent + 4)}${attributeName}='${sub.$[attributeName]}'`;
