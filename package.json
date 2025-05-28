@@ -1,6 +1,6 @@
 {
-	"name": "react-native-iconpark-cli",
-	"version": "1.1.5",
+	"name": "rn-iconpark-cli",
+	"version": "0.1",
 	"main": "index.js",
 	"keywords": [
 		"iconpark",
@@ -9,13 +9,13 @@
 		"icon",
 		"icons"
 	],
-	"repository": "git@github.com:L-x-C/react-native-iconpark-cli.git",
-	"author": "lxc <lxc11235@gmail.com>",
+	"repository": "git@github.com:siy-neo/react-native-iconpark-cli.git",
+	"author": "neo <neo@creatify.ai>",
 	"license": "MIT",
 	"bin": {
-		"iconpark": "./commands/help.js",
-		"iconpark-init": "./commands/createJson.js",
-		"iconpark-rn": "./commands/createIcon.js"
+		"creatify-iconpark": "./commands/help.js",
+		"creatify-iconpark-init": "./commands/createJson.js",
+		"creatify-iconpark-rn": "./commands/createIcon.js"
 	},
 	"peerDependencies": {
 		"react": "*",
