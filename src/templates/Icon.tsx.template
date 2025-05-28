@@ -9,10 +9,9 @@ import { ViewProps } from 'react-native';
 
 export type IconNames = '#names#';
 
-interface Props extends GProps, ViewProps {
+interface Props extends SvgProps {
   name: IconNames;
   size?: number;
-  color?: string | string[];
 }
 
 let IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {

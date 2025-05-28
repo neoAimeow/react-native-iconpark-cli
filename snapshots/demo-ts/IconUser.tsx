@@ -3,12 +3,11 @@
 
 import React, { FunctionComponent } from 'react';
 import { ViewProps } from 'react-native';
-import { Svg, GProps, Path } from 'react-native-svg';
+import { Svg, GProps, Path, G, Symbol, Defs, Circle, Rect, LinearGradient, Stop, Mask, Text, Tspan, Filter, FeColorMatrix, _ } from 'react-native-svg';
 import { getIconColor } from './helper';
 
-interface Props extends GProps, ViewProps {
+interface Props extends SvgProps {
   size?: number;
-  color?: string | string[];
 }
 
 let IconUser: FunctionComponent<Props> = ({ size, color, ...rest }) => {

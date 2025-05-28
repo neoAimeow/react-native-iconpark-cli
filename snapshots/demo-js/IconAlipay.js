@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import React from 'react';
-import { Svg, Path } from 'react-native-svg';
+import { Svg, Path, G, Symbol, Defs, Circle, Rect, LinearGradient, Stop, Mask, Text, Tspan, Filter, FeColorMatrix, _ } from 'react-native-svg';
 import { getIconColor } from './helper';
 
 let IconAlipay = ({ size, color, ...rest }) => {

@@ -5,9 +5,8 @@ import React, { FunctionComponent } from 'react';
 import { ViewProps } from 'react-native';
 import { GProps, SvgCss } from 'react-native-svg';
 
-interface Props extends GProps, ViewProps {
+interface Props extends SvgProps {
   size?: number;
-  color?: string | string[];
 }
 
 const xml = `

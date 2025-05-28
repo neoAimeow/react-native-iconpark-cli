@@ -6,9 +6,8 @@ import { ViewProps } from 'react-native';
 #svgComponents#
 #helper#
 
-interface Props extends GProps, ViewProps {
+interface Props extends SvgProps {
   size?: number;
-  color?: string | string[];
 }
 
 let #componentName#: FunctionComponent<Props> = ({ size, color, ...rest }) => {

@@ -21,10 +21,9 @@ export { default as IconStyle } from './IconStyle';
 
 export type IconNames = 'alipay' | 'user' | 'setup' | 'classSvg' | 'inlineStyle' | 'normal' | 'style';
 
-interface Props extends GProps, ViewProps {
+interface Props extends SvgProps {
   name: IconNames;
   size?: number;
-  color?: string | string[];
 }
 
 let IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {
