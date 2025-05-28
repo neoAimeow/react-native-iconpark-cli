@@ -179,7 +179,6 @@ const addAttribute = (
 				}
 			} else if (attributeName === "data-follow-fill") {
 				// skip
-				console.log(sub.$[attributeName]);
 			} else {
 				template += `\n${whitespace(counter.baseIdent + 4)}${camelCase(attributeName)}="${sub.$[attributeName]}"`;
 			}
