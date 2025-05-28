@@ -6,6 +6,14 @@
 
 ![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/icons.png?raw=true)
 
+## 改进
+1. 兼容最新版本的react-native-svg
+2. 新增支持clipPath与radialGradient
+
+## 其它改造
+1. 只支持typescript
+2. 去掉了一些无用的配置与参数
+
 ## 痛点
 
 通常地，当我们想在RN里使用iconpark，我们可能会借助`react-native-vector-icons`导入ttf字体文件，或者直接手动下载各个svg文件到本地，然后单个使用。
@@ -53,17 +61,15 @@ cd ios && pod install
 # Step 3
 生成配置文件
 ```bash
-npx iconpark-init
+npx creatify-iconpark-init
 ```
 此时项目根目录会生成一个`iconfont.json`的文件，内容如下：
 ```json
 {
     "symbol_url": "请参考README.md，复制官网提供的JS链接",
-    "use_typescript": false,
     "save_dir": "./src/iconfont",
     "trim_icon_prefix": "icon",
     "default_icon_size": 18,
-    "local_svgs": "./localSvgs"
 }
 ```
 ### 配置参数说明：
