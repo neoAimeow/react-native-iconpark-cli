@@ -17,7 +17,7 @@ interface Props extends SvgProps {
   size?: number;
 }
 
-const IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {
+const IconFont: FunctionComponent<Props> = ({ name, size = #size#, ...rest }) => {
   switch (name) {
 #cases#  }
 

@@ -12,7 +12,7 @@ interface Props extends SvgProps {
   size?: number;
 }
 
-const #componentName#: FunctionComponent<Props> = ({ size, color, ...rest }) => {
+const #componentName#: FunctionComponent<Props> = ({ size = #size#, color, ...rest }) => {
   return (#iconContent#  );
 };
 

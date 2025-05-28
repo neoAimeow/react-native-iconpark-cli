@@ -14,7 +14,7 @@ interface Props extends SvgProps {
 
 #xml#
 
-const #componentName#: FunctionComponent<Props> = ({ size, color, ...rest }) => {
+const #componentName#: FunctionComponent<Props> = ({ size = #size#, color, ...rest }) => {
   return (#iconContent#  );
 };
 
