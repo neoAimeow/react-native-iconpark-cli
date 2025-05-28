@@ -21,6 +21,7 @@ import { whitespace } from "./whitespace";
 
 const SVG_MAP = {
 	path: "Path",
+	radialGradient: "RadialGradient",
 	clipPath: "ClipPath",
 	g: "G",
 	symbol: "Symbol",
