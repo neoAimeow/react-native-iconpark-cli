@@ -1,8 +1,6 @@
 {
-  "symbol_url": "http://at.alicdn.com/t/font_1373348_ghk94ooopqr.js",
-  "use_typescript": true,
-  "save_dir": "./snapshots/demo-ts",
-  "trim_icon_prefix": "icon",
-  "default_icon_size": 20,
-  "local_svgs": "./localSvgs"
+	"symbol_url": "https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_35338_246.0ee43ecd1f28b9484a50b5b39a4a8b38.js",
+	"save_dir": "./snapshots/demo-ts",
+	"trim_icon_prefix": "icon",
+	"default_icon_size": 20
 }

@@ -1,8 +1,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import React, { type FunctionComponent } from "react";
-import { ViewProps } from 'react-native';
+import type { FunctionComponent } from 'react';
 
 // biome-ignore lint/style/useImportType: <explanation>
 // biome-ignore lint/correctness/noUnusedImports: <explanation>
